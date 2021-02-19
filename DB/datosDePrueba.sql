@@ -9,6 +9,11 @@ INSERT INTO cliente (correo, estatus, idPersona, idUsuario) VALUES ('jsanchez@gm
 INSERT INTO mascota (nombre, edad, raza, especie, sexo, descripcion, idCliente)
 VALUES('José José', 60, 'Pitbull', 'Perro', 'Macho','Le gusta el alcohol y vivir en taxis',1);
 
+-- --
+INSERT INTO mascota (nombre, edad, raza, especie, sexo, descripcion, idCliente)
+VALUES('José José', 60, 'Pitbull', 'Perro', 'Macho','Le gusta el alcohol y vivir en taxis',1);
+
+
 CALL insertMascota('Lils', 15, 'pitbull', 'perro', 'hembra', 1);
 CALL insertMascota('Nia', 12, 'persa', 'gato', 'hembra', 2);
 CALL insertMascota('Ken', 3, 'Akita', 'perro', 'macho', 3);
